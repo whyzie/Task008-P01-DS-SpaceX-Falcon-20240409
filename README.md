@@ -62,8 +62,8 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
     <li><a href="#Plan">Plan - import the relevant libraries and data</a></li>
     <ul>
         <li><a href="#Sel">Selection</a></li>
-        <li><a href="#DW">Data Wrangling</a></li>
         <li><a href="#WS">Web Scraping</a></li>
+        <li><a href="#DW">Data Wrangling</a></li>        
     </ul>
     <li><a href="#EDA">Explarotary Data Analysis (EDA)</a></li>
     <ul>
