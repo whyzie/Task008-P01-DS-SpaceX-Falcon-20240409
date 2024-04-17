@@ -16,12 +16,11 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
 </div>
 
 # Provide the path to the image file
-image_1 = "/kaggle/input/task008-p01-vid-crash-land-20240409/crash_SpaceX.gif"
-image_2 = "/kaggle/input/task008-p01-vid-crash-land-20240409/landing_1_SpaceX.gif"
+**Crash**
+![Crash ](crash_SpaceX.gif)
+**Landing**
+![Landing](landing_1_SpaceX.gif)
 
-# Display the image
-display(Image(filename=image_1), "Crash (class = 0)")
-display(Image(filename=image_2), "Landing (class = 1)")
 
 <div class="alert alert-block alert-warning">
 <img style="float: left" src="https://i.postimg.cc/kXz8cFqC/005-Img-Yellow-Notes-Draft-1-20220819.png" width="60">
