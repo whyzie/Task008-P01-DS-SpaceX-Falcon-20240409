@@ -83,9 +83,10 @@ app.layout = html.Div(children=[
               Input(component_id='site-dropdown', component_property='value'))
 def get_pie_chart(entered_site):
     if entered_site == 'ALL':
-        filtered_df = spacex_df.groupby(['Launch Site']).size().reset_index(name='counts')
-        filtered_df['outcome'] = filtered_df['counts'].apply(lambda x: 'Success' if x > 0 else 'Failure')
-        return px.pie(filtered_df, values='counts', names='outcome', title='Launch Success Rate For All Sites')
+        site_success_counts = spacex_df[spacex_df['class'] == 1].groupby('Launch Site').size().reset_index(name='success_count')
+        labels = site_success_counts['Launch Site']
+        values = site_success_counts['success_count']
+        return px.pie(values=values, names=labels, title='Total Success Launches by Site')
     else:
         filtered_df = spacex_df[spacex_df['Launch Site'] == entered_site]
         filtered_df['outcome'] = filtered_df['class'].apply(lambda x: 'Success' if x == 1 else 'Failure')
