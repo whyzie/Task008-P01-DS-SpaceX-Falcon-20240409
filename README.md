@@ -6,7 +6,7 @@ Predict successful landing
     
 SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars, whereas other providers charge upwards of 165 million dollars each. The cost savings stem from SpaceX's capability to reuse the first stage. We will develop a model to predict the successful landing of the first stage, which will help estimate the launch cost for a bidding proposal.
     
-<p style = "font-family: Arial; font-size: 14px">Note: This project's dataset was created for pedagogical purposes and may not be indicative of Space Y.</p>
+<p style = "font-family: Arial; font-size: 14px">Note: This project's dataset was created for pedagogical purposes and may not be indicative of Space X.</p>
 <hr>
 
 <ol>
