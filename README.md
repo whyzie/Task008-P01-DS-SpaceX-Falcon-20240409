@@ -15,12 +15,13 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
     </ol>
 </div>
 
-# Provide the path to the image file
 **Crash**
-![Crash ](02. Image/crash_SpaceX.gif)
-**Landing**
-![Landing](02. Image/landing_1_SpaceX.gif)
 
+![Crash](02_Image/crash_SpaceX.gif)
+
+**Landing**
+
+![Landing](02_Image/landing_1_SpaceX.gif)
 
 <div class="alert alert-block alert-warning">
 <img style="float: left" src="https://i.postimg.cc/kXz8cFqC/005-Img-Yellow-Notes-Draft-1-20220819.png" width="60">
