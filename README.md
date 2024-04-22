@@ -81,6 +81,7 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
         <li><a href="#SVM">Support Vector Machine (SVM)</a></li>
         <li><a href="#Tree">Decision Tree</a></li>
         <li><a href="#KNN">K Nearest Neighbours (KNN)</a></li>
+        <li><a href="#RF">Random Forest (RF)</a></li>
     </ul>
     <li><a href="#Ex">Execute - share</a></li>
     <ul>
@@ -88,3 +89,125 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
     </ul>
 </ol>
 </div>
+
+<h3 style = "text-align:center">Table 1.1. Project Charter</h3>
+<table style="color:black;
+           display:fill;
+           border-colapse: colapse;
+           width: 100%;
+           border: 1px solid black;
+           border-collapse: collapse;
+           border-style: solid;
+           border-radius:5px;
+           background-color:#5642C5;
+           font-size:110%;
+           font-family:Verdana;
+           letter-spacing:0.5px">
+  
+  <tr>
+    <th colspan ="4" style="text-align:center">Project Launch Bids Ignition</th>
+  </tr>
+    <tr>
+    <th colspan ="4" style="text-align:center">9th Apr 2024</th>
+  </tr>
+  <tr>
+      <th colspan ="4" style="text-align:center">Document Status: <del>Draft</del> | In Review | <del>Approved</del></th>
+  </tr>
+  <tr>
+      <th colspan ="4" style="text-align:center">Executive Summary</th>
+  </tr>
+  <tr>
+      <td colspan ="4" style="text-align:center">Main focus at this moment is to explore machine learning model.</td>
+  </tr>
+  <tr style ="background:LightSkyBlue;text-align:center">
+      <td colspan ="2">Business Case</td>
+      <td colspan ="2">Problem/Opportunity Statement</td>
+  </tr>
+ <tr style="text-align:left">
+     <td colspan ="2">SpaceX has been operating since 2010 and has offered competitive prices since its first successful landing in 2015 by reusing the rocket, costing more than half of its competitors.</td>
+     <td colspan ="2">
+         <ul>
+         <li>Space x has been operating since 2010 and the landing success rate continue to increase.
+         <li>Launch sites have an average success rate below 70%.
+     </ul> 
+</td>  
+  </tr>
+
+ <tr style ="background:LightSkyBlue;text-align:center">
+      <td colspan ="2">Goal Statement</td>
+      <td colspan ="2">Deliverables (Key Results)</td>
+ </tr>
+ <tr style="text-align:left">
+      <td colspan ="2">Improve the success rate of successful landings, currently averaging below 70%, to achieve a competitive bid proposal cost of USD 62 million compared to our competitors.
+<p>Primary metric:
+     <ul>
+         <li>Successful landing launch rate (%)
+     </ul>
+     Secondary Metric:
+     <ul>
+         <li>Number of projects increase 10%
+     </ul>
+     </td>
+      <td colspan ="2">Primary Key Results:
+     <ul>
+         <li>80%
+     </ul>
+     Secondary Key Results:
+     <ul>
+         <li>% Incremental increase number of projects
+     </ul>
+     </td>
+  </tr>
+ 
+ <tr style ="background:LightSkyBlue;text-align:center">
+      <td colspan ="2">Benefits, Cost, and Budget</td>
+      <td colspan ="2">Scope and Exclusion</td>
+ </tr>
+ <tr style="text-align:left">
+      <td colspan ="2">Benefits:
+     <ul>
+         <li>Increase revenue - Winning Bid
+         <li>Customer engagements (Users and New Users)
+     </ul>
+     Costs:
+     <ul>
+         <li>Machine learning's model implementation
+         <li>Tracked via dashboard
+     </ul>
+     Budget Needed:
+           <span>TBD</span>
+     </td>
+      <td colspan ="2">In-Scope:
+     <ul>
+         <li>3 launch sites   
+     </ul>
+     Out-of-Scope:
+     <ul>
+         <li>Falcon 1
+     </ul>
+     </td>
+  </tr>   
+ 
+ <tr style ="background:LightSkyBlue;text-align:center">
+      <td colspan ="2">Project Team</td>
+      <td colspan ="2">Measuring Success</td>
+ </tr>
+ <tr style="text-align:left">
+      <td colspan ="2"> 
+     <ul>
+         <li>Sponsor: Elon Must, CEO and Jamal Harris, Director, Rocket Launching
+         <li>Owner: Joe Romero, VP, Rocket, and Bassem Tate VP, Product Development
+         <li>Leader: Wahyu Ardhitama, Head of Data Analytics
+         <li>Member: Nina Locklear, Director, Procurement, Adhira Patel, API Strategist, Megan Pirato, Data Warehousing Specialist, Rick Andersson, Manager, Data Governance, Tessa Blackwell, Data Analyst, Brianne Sand, Director, IT and Shareefah Hakimi, Project Manager
+     </ul>
+     </td>
+  
+  <td colspan ="2">Deliverables after solutions implementation:
+     <ul>Machine learning model deliver more incremental value of success launching rate than to the current systems.
+         <li>Predict the best succesful landing site
+         <li>The best option for customers launching on the landing  site that offers the most value, considering factors such as from orbit, location etc.
+         <li>Determine cost launch.
+     </ul>
+  </td>
+  </tr>
+  </table>
