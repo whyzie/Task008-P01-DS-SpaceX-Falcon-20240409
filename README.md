@@ -35,8 +35,8 @@ All documents are also available in the <a href="https://www.kaggle.com/code/wah
     <th>Crash Landing (Classs = 0)</th>    
   </tr>
   <tr style = "text-align:center">
-      <td><img style= "margin:auto" src="02_Image/crash_SpaceX.gif" width = "450"></td>
       <td><img style= "margin:auto" src="02_Image/landing_1_SpaceX.gif" width = "450"></td>
+      <td><img style= "margin:auto" src="02_Image/crash_SpaceX.gif" width = "450"></td>
   </tr>
   </table>
 
