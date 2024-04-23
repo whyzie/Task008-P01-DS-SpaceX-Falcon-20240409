@@ -196,7 +196,7 @@ All documents are also available in the <a href="https://www.kaggle.com/code/wah
      </td>
       <td colspan ="2">In-Scope:
      <ul>
-         <li>3 launch sites   
+         <li>4 launch sites   
      </ul>
      Out-of-Scope:
      <ul>
