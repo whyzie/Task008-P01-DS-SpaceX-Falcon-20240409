@@ -211,3 +211,32 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
   </td>
   </tr>
   </table>
+
+  <h1><a id="Sum">Conclussion</a></h1>  
+<div class="alert alert-block alert-success" style="font-family:verdana; font-size:14px">
+<ol>
+    <li>We used different data across the assignments. The number of successful landings increase with the flight number
+    <li>The data in SQL we acquired 4 launch sites. Space X start operating in 2010 and first successful landing in 2015
+    <li>In the analyze to construct step, We utilized data of 4 location sites and 56 launches   
+      <li>The location site with the highest success rate is KSC LC-39A
+    <li>We have built classification models to predict the probability whether the rocket will land successfully or failure.
+</ol>
+<hr>
+Tree-based Machine Learning
+<ol>We decided to choose Random forest which performs well on the test set 94% with the highest accuracy 91% score among all models. The feature importance of the Random forrest as follows:
+    <li>Reused count
+    <li>Legs
+    <li>Grid fins
+    <li>Flight number
+    <li>Payload mass
+    <li>Block
+    <li>Orbit GTO
+    <li>Landing pad with last 3 numbers or letters 7ca
+</ol>
+Next Steps
+<ul>
+    <li>Considering XGBoost and KMeans
+    <li>Analyze the feature importance from random forest further 
+    <li>Review the hyperparameter tuning
+</ul>
+</div>
