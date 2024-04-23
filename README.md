@@ -12,16 +12,33 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
 <ol>
     <li> Collect and make sure the data is in the correct format from an API.
     <li> Predict if the Falcon 9 first stage will land successfully.
-    </ol>
+</ol>
+All documents are also available in the <a href="https://www.kaggle.com/code/wahyuardhitama/task008-p01-ds-spacex-falcon-20240409">Kaggle.</a>
 </div>
 
-**Crash**
-
-![Crash](02_Image/crash_SpaceX.gif)
-
-**Landing**
-
-![Landing](02_Image/landing_1_SpaceX.gif)
+<table style="color:black;
+           display:fill;
+           border-colapse: colapse;
+           width: 100%;
+           border: 1px solid black;
+           border-collapse: collapse;
+           border-style: solid;
+           border-radius:5px;
+           background-color:#5642C5;
+           font-size:110%;
+           font-family:Verdana;
+           letter-spacing:0.5px">
+            
+  <h3 style = "text-align:center">Table 1.1. Classification Class </h3>
+  <tr>
+    <th>Landing Success (Class = 1)</th>
+    <th>Crash Landing (Classs = 0)</th>    
+  </tr>
+  <tr style = "text-align:center">
+      <td><img style= "margin:auto" src="02_Image/crash_SpaceX.gif" width = "450"></td>
+      <td><img style= "margin:auto" src="02_Image/landing_1_SpaceX.gif" width = "450"></td>
+  </tr>
+  </table>
 
 <div class="alert alert-block alert-warning">
 <img style="float: left" src="https://i.postimg.cc/kXz8cFqC/005-Img-Yellow-Notes-Draft-1-20220819.png" width="60">
@@ -90,7 +107,7 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
 </ol>
 </div>
 
-<h3 style = "text-align:center">Table 1.1. Project Charter</h3>
+<h3 style = "text-align:center">Table 1.2. Project Charter</h3>
 <table style="color:black;
            display:fill;
            border-colapse: colapse;
@@ -209,6 +226,30 @@ SpaceX advertises Falcon 9 rocket launches on its website for 62 million dollars
          <li>Determine cost launch.
      </ul>
   </td>
+  </tr>
+  </table>
+
+  <table style="color:black;
+           display:fill;
+           border-colapse: colapse;
+           width: 100%;
+           border: 1px solid black;
+           border-collapse: collapse;
+           border-style: solid;
+           border-radius:5px;
+           background-color:#5642C5;
+           font-size:110%;
+           font-family:Verdana;
+           letter-spacing:0.5px">
+            
+  <h3 style = "text-align:center">Table 1.3. Machine Learning Model Results</h3>
+  <tr>
+    <th>Classification Accuracy of Different Models</th>
+    <th>Random Forest Feature Importance</th>    
+  </tr>
+  <tr style = "text-align:center">
+      <td><img style= "margin:auto" src="02_Image/Classification_accuracy.png" width = "600"></td>
+      <td><img style= "margin:auto" src="02_Image/rf1-importance.png" width = "600"></td>
   </tr>
   </table>
 
